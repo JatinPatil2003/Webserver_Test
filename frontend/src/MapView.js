@@ -7,7 +7,7 @@ const MapView = () => {
     useEffect(() => {
         const fetchMapData = async () => {
             try {
-                const response = await fetch('http://172.27.232.2:8000/api/map');
+                const response = await fetch('http://65.2.171.107:8000/api/map');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
